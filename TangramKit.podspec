@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TangramKit"
-  s.version      = "1.0.0"
+  s.version      = "1.1.1"
   s.summary      = "TangramKit is A powerful iOS UI framework. It integrated the Android layout,AutoLayout,SizeClass, HTML/CSS float and flexbox functions."
 
   s.description  = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/youngsoft/TangramKit"
-  s.screenshots  = "http://7xoymz.com1.z0.glb.clouddn.com/mylayout.gif", "http://7xoymz.com1.z0.glb.clouddn.com/sizeClassLayout.gif"
+  s.screenshots  = "http://upload-images.jianshu.io/upload_images/1432482-3bfd0855a51b6d8e.gif?imageMogr2/auto-orient/strip"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/youngsoft/TangramKit.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/youngsoft/TangramKit.git", :tag => "1.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TangramKit/Lib/*.{swift}"
+  s.source_files  = "TangramKit/*.{swift}"
   #s.exclude_files = "Classes/Exclude"
 
   #s.public_header_files = "TangramKit/Lib/*.h"
